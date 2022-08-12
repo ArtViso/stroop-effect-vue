@@ -1,15 +1,14 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js + TypeScript App"/>
+  <StroopEffect msg="Stroop effect"/>
 </template>
 
 <script lang="ts">
 import { Options, Vue } from 'vue-class-component';
-import HelloWorld from './components/HelloWorld.vue';
+import StroopEffect from './components/StoopEffect.vue';
 
 @Options({
   components: {
-    HelloWorld,
+    StroopEffect,
   },
 })
 export default class App extends Vue {}
