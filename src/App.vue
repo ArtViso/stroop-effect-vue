@@ -1,17 +1,9 @@
 <template>
-  <StroopEffect msg="Stroop effect"/>
+  <StroopEffect/>
 </template>
 
-<script lang="ts">
-import { Options, Vue } from 'vue-class-component';
-import StroopEffect from './components/StoopEffect.vue';
-
-@Options({
-  components: {
-    StroopEffect,
-  },
-})
-export default class App extends Vue {}
+<script setup lang="ts">
+import StroopEffect from './components/StroopEffect.vue';
 </script>
 
 <style>
